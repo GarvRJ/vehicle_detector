@@ -237,5 +237,5 @@ while True:
 
 print("Total frames: " + str(total_frames))
 database.update({station: "Offline"})
-cap.release()
+capture.release()
 cv2.destroyAllWindows()
